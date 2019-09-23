@@ -1,0 +1,29 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto&display=swap" rel="stylesheet">
+  <style type="text/css">
+    h1 {
+      font-family: "Montserrat";
+      font-size: 35px;
+      color: white;
+      font-weight: bold;
+      padding-top: 1em !important;
+      padding-bottom: 1em !important;
+    }
+
+    p {
+      padding-top: 1em;
+      font-family: "Merriweather";
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<div *ngIf="isSubmitted">
+  <h1 name="thanks">
+    Thanks for your interest!
+  </h1>
+  <p name="paragraph">
+    We will review your application and contact you for addition information should your background and experience meet
+    the requirements of one of our openings.
+  </p>
+</div>
