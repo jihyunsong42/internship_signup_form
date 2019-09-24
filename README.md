@@ -9,7 +9,7 @@ After that, it delays two minutes for HTTP Request and shows the result page.
 
 This shows how the browser console changes.
 
-1[](console.gif)
+![](console.gif)
 
 
 Responsive Web Design
