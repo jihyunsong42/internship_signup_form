@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormComponent } from './components/form/app-form.component';
 import { ResultComponent } from './components/result/result.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    ResultComponent
+    ResultComponent,
+    HeaderComponent
   ],
   imports: [
     FormsModule,

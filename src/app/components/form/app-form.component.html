@@ -1,6 +1,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto&display=swap" rel="stylesheet">
   <style type="text/css">
+
     p {
       padding-top: 2em;
       font-family: "Merriweather";
@@ -48,6 +49,7 @@
       right: 2em;
       color:black;
     }
+
     .option {
       height: 3em !important;
     }
@@ -85,8 +87,8 @@
     <div class="form-group">
       <div class="row" style="height:3em">
         <div class="col-md-6">
-          <p name="email-error" *ngIf="isEmailValid"> </p>
           <p name="email-error" *ngIf="!isEmailValid">{{message}}</p>
+          <p name="email-error" *ngIf="isEmailValid"> </p>
         </div>
       </div>
       <div class="row" name="input">

@@ -1,47 +1,23 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto&display=swap" rel="stylesheet">
   <style type="text/css">
-    html {
-      min-height: 100%;
-    }
 
     body {
-      min-height: 100vh;
+      height: 100vh; 
       padding-bottom: 3em;
       background-color: #282828;
+      overflow-y:scroll;
     }
 
-    h1 {
-      font-family: "Montserrat";
-      font-size: 65px;
-      color: white;
-      font-weight: bold;
-      padding-top: 1em !important;
-      padding-bottom: 1em !important;
-    }
-
-    div[name="div-bar"] {
-      padding: 0px;
-    }
-
-    hr {
-      height: 10px;
-      background-color: #D02035;
-    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>INTERNSHIP SIGNUP FORM</h1>
-    <div class="col-md-4" name="div-bar">
-      <hr>
-    </div>
+    <app-header></app-header>
     <app-form></app-form>
     <app-result></app-result>
-
   </div>
 </body>
 
